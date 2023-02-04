@@ -59,4 +59,40 @@ public class RomanNumeralsConverterTest {
 
         assertEquals("IX", romanNumeralsConverter.convert(9));
     }
+    @Test
+    public void convert10toNumeral() {
+        RomanNumeralsConverter romanNumeralsConverter = new RomanNumeralsConverter();
+
+        assertEquals("X", romanNumeralsConverter.convert(10));
+    }
+    @Test
+    public void convert11toNumeral() {
+        RomanNumeralsConverter romanNumeralsConverter = new RomanNumeralsConverter();
+
+        assertEquals("XI", romanNumeralsConverter.convert(11));
+    }
+    @Test
+    public void convert14toNumeral() {
+        RomanNumeralsConverter romanNumeralsConverter = new RomanNumeralsConverter();
+
+        assertEquals("XIV", romanNumeralsConverter.convert(14));
+    }
+    @Test
+    public void convert15toNumeral() {
+        RomanNumeralsConverter romanNumeralsConverter = new RomanNumeralsConverter();
+
+        assertEquals("XV", romanNumeralsConverter.convert(15));
+    }
+    @Test
+    public void convert16toNumeral() {
+        RomanNumeralsConverter romanNumeralsConverter = new RomanNumeralsConverter();
+
+        assertEquals("XVI", romanNumeralsConverter.convert(16));
+    }
+    @Test
+    public void convert19toNumeral() {
+        RomanNumeralsConverter romanNumeralsConverter = new RomanNumeralsConverter();
+
+        assertEquals("XIX", romanNumeralsConverter.convert(19));
+    }
 }
