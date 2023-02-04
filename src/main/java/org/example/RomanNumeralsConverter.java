@@ -10,16 +10,18 @@ public class RomanNumeralsConverter {
         // create ONES place string arrary to return 1 to 9 and zero is empty string®
         String[] ones = {"", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX" };
         // use number % 10 modulus to return the ones place digit (division reminder)
-        int onesPlace = number % 10;
+        //int onesPlace = number % 10; remove for simpler code
         // if zero, empty string is assigned, otherwise roman numeral is assigned
-        onesPlaceStr = ones[onesPlace];
+        onesPlaceStr = ones[number % 10];
         // create TENS string array for tens place values
 
         String[] tens = {"", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC" };
         // use number % 100 /10 modulus to return the tens place digit
+        tensPlaceStr = tens[number %100 / 10];
+
         // create HUNDREDS string array for hundreds place values
 
-        return onesPlaceStr;
+        return tensPlaceStr + onesPlaceStr;
     }
 
 }
