@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="688ab45e-17d0-490b-afa1-650ee69b687e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/RomanNumeralsConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/RomanNumeralsConverterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/RomanNumeralsConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/RomanNumeralsConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/RomanNumeralsConverterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/RomanNumeralsConverterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +48,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.RomanNumeralsConverterTest.convertOnetoNumeral">
+  <component name="RunManager" selected="JUnit.RomanNumeralsConverterTest.convert2and3toRomanNumeral">
     <configuration name="RomanNumeralsConverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RYWK3-TDD-RomanNumerals-Kata" />
       <extension name="coverage">
@@ -61,6 +60,38 @@
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.RomanNumeralsConverterTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RomanNumeralsConverterTest.convert2and3toRomanNumeral" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RYWK3-TDD-RomanNumerals-Kata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.RomanNumeralsConverterTest" />
+      <option name="METHOD_NAME" value="convert2and3toRomanNumeral" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RomanNumeralsConverterTest.convert2toRomanNumeral" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RYWK3-TDD-RomanNumerals-Kata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.RomanNumeralsConverterTest" />
+      <option name="METHOD_NAME" value="convert2toRomanNumeral" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -83,6 +114,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RomanNumeralsConverterTest.convert2and3toRomanNumeral" />
+        <item itemvalue="JUnit.RomanNumeralsConverterTest.convert2toRomanNumeral" />
         <item itemvalue="JUnit.RomanNumeralsConverterTest.convertOnetoNumeral" />
         <item itemvalue="JUnit.RomanNumeralsConverterTest" />
       </list>
