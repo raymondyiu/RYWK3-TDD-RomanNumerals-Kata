@@ -6,8 +6,10 @@ public class RomanNumeralsConverter {
         String onesPlaceStr="";
         String tensPlaceStr="";
         String hundredsPlaceStr="";
+        String thousandsPlaceStr="";
         //if number is 1 return "I"
         // code removed if ( number == 1) { return "I"; }
+
         // create ONES place string arrary to return 1 to 9 and zero is empty string®
         String[] ones = {"", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX" };
         // use number % 10 modulus to return the ones place digit (division reminder)
@@ -22,10 +24,15 @@ public class RomanNumeralsConverter {
 
         // create HUNDREDS string array for hundreds place values
         String[] hundreds = {"", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCC", "CM" };
-        // use number % 1000 / 100 modulus to retunr the hundreds place digit
+        // use number % 1000 / 100 modulus to return the hundreds place digit
         hundredsPlaceStr = hundreds[number % 1000 / 100];
 
-        return hundredsPlaceStr + tensPlaceStr + onesPlaceStr;
+        //create THOUSANDS string array for thousand place values
+        String[] thousands = {"", "M", "MM", "MMM"};
+        // use (number %10000 /1000) modulus to return the thousands place digit
+        thousandsPlaceStr = thousands[number %10000 / 1000];
+
+        return thousandsPlaceStr + hundredsPlaceStr + tensPlaceStr + onesPlaceStr;
     }
 
 }

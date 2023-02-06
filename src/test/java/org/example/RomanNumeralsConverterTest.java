@@ -143,4 +143,34 @@ public class RomanNumeralsConverterTest {
 
         assertEquals("M", romanNumeralsConverter.convert(1000));
     }
+    @Test
+    public void convert1444toNumeral() {
+        RomanNumeralsConverter romanNumeralsConverter = new RomanNumeralsConverter();
+
+        assertEquals("MCDXLIV", romanNumeralsConverter.convert(1444));
+    }
+    @Test
+    public void convert1555toNumeral() {
+        RomanNumeralsConverter romanNumeralsConverter = new RomanNumeralsConverter();
+
+        assertEquals("MDLV", romanNumeralsConverter.convert(1555));
+    }
+    @Test
+    public void convert1666toNumeral() {
+        RomanNumeralsConverter romanNumeralsConverter = new RomanNumeralsConverter();
+
+        assertEquals("MDCLXVI", romanNumeralsConverter.convert(1666));
+    }
+    @Test
+    public void convert1999toNumeral() {
+        RomanNumeralsConverter romanNumeralsConverter = new RomanNumeralsConverter();
+
+        assertEquals("MCMXCIX", romanNumeralsConverter.convert(1999));
+    }
+    @Test
+    public void convert3999toNumeral() {
+        RomanNumeralsConverter romanNumeralsConverter = new RomanNumeralsConverter();
+
+        assertEquals("MMMCMXCIX", romanNumeralsConverter.convert(3999));
+    }
 }
