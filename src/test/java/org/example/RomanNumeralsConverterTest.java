@@ -95,4 +95,52 @@ public class RomanNumeralsConverterTest {
 
         assertEquals("XIX", romanNumeralsConverter.convert(19));
     }
+    @Test
+    public void convert99toNumeral() {
+        RomanNumeralsConverter romanNumeralsConverter = new RomanNumeralsConverter();
+
+        assertEquals("XCIX", romanNumeralsConverter.convert(99));
+    }
+    @Test
+    public void convert140toNumeral() {
+        RomanNumeralsConverter romanNumeralsConverter = new RomanNumeralsConverter();
+
+        assertEquals("CXL", romanNumeralsConverter.convert(140));
+    }
+    @Test
+    public void convert155toNumeral() {
+        RomanNumeralsConverter romanNumeralsConverter = new RomanNumeralsConverter();
+
+        assertEquals("CLV", romanNumeralsConverter.convert(155));
+    }
+    @Test
+    public void convert444toNumeral() {
+        RomanNumeralsConverter romanNumeralsConverter = new RomanNumeralsConverter();
+
+        assertEquals("CDXLIV", romanNumeralsConverter.convert(444));
+    }
+    @Test
+    public void convert555toNumeral() {
+        RomanNumeralsConverter romanNumeralsConverter = new RomanNumeralsConverter();
+
+        assertEquals("DLV", romanNumeralsConverter.convert(555));
+    }
+    @Test
+    public void convert666toNumeral() {
+        RomanNumeralsConverter romanNumeralsConverter = new RomanNumeralsConverter();
+
+        assertEquals("DCLXVI", romanNumeralsConverter.convert(666));
+    }
+    @Test
+    public void convert999toNumeral() {
+        RomanNumeralsConverter romanNumeralsConverter = new RomanNumeralsConverter();
+
+        assertEquals("CMXCIX", romanNumeralsConverter.convert(999));
+    }
+    @Test
+    public void convert1000toNumeral() {
+        RomanNumeralsConverter romanNumeralsConverter = new RomanNumeralsConverter();
+
+        assertEquals("M", romanNumeralsConverter.convert(1000));
+    }
 }
