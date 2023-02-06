@@ -7,9 +7,11 @@ public class RomanNumeralsConverter {
         String tensPlaceStr="";
         String hundredsPlaceStr="";
         String thousandsPlaceStr="";
-        //if number is 1 return "I"
-        // code removed if ( number == 1) { return "I"; }
 
+        // handle error to return empty string if number is out of range 0 < number or number >= 4000
+        if ((number <= 0) || (number >= 4000)) {
+            return "";
+        }
         // create ONES place string arrary to return 1 to 9 and zero is empty string®
         String[] ones = {"", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX" };
         // use number % 10 modulus to return the ones place digit (division reminder)

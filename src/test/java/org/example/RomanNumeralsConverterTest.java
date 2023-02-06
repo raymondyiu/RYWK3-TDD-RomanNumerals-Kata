@@ -173,4 +173,16 @@ public class RomanNumeralsConverterTest {
 
         assertEquals("MMMCMXCIX", romanNumeralsConverter.convert(3999));
     }
+    @Test
+    public void convertNegative1toNumeral() {
+        RomanNumeralsConverter romanNumeralsConverter = new RomanNumeralsConverter();
+
+        assertEquals("MMMCMXCIX", romanNumeralsConverter.convert(3999));
+    }
+    @Test
+    public void convert4120toNumeral() {
+        RomanNumeralsConverter romanNumeralsConverter = new RomanNumeralsConverter();
+
+        assertEquals("", romanNumeralsConverter.convert(4120));
+    }
 }
